@@ -9,7 +9,7 @@ const ProjectAssignmentsTable = () => {
     try {
       const response = await fetch('/api/project_assignments');
       const data = await response.json();
-      setAssignments(data.slice(0, 5));
+      setAssignments(data);
     } catch (error) {
       console.error('Error fetching assignments:', error);
     }
