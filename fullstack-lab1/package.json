@@ -1,0 +1,17 @@
+{
+    "id": "3",
+    "title": "Pancakes",
+    "ingredients": [
+        "flour",
+        "milk",
+        "egg",
+        "sugar",
+        "baking powder"
+    ],
+    "instructions": "Mix all ingredients and cook on a hot griddle.",
+    "cookingTime": 15,
+    "dependencies": {
+        "mongodb": "^6.6.2",
+        "mongoose": "^8.4.0"
+    }
+}
